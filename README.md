@@ -16,6 +16,11 @@ We have used the latest version of tensorflow here i.e. tensorflow2.3.0. For ins
 As we using Keras on Tensorflow backend we don't need to install Keras additionally.  
 # DOWNLOADING THE DATA  
 The entire dataset is available on kaggle and can be downloaded using the download link i.e. [click here to download the Dogs vs Cats data.](https://www.kaggle.com/c/dogs-vs-cats/data)  
+# WHAT IS TRANSFER LEARNING?  
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.  
+It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems.  
+![TL](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/Three-ways-in-which-transfer-might-improve-learning.png)  
+We have used VGG16 as the Transfer Learning base model for our project here.
 # SCOPE OF THIS PROJECT  
 For me this project was a starting step in Transfer Learning models. By working on the practical aspects of this project I was able to solidify a lot of the theoritical concepts. I hope it helps you out too. You can clone this repository on your local machine using  
 ```html
